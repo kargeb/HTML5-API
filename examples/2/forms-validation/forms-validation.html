@@ -1,0 +1,68 @@
+<form id="form" action="" novalidate>
+
+    <h4>Formularz zgłoszeniowy</h4>
+    <br>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Imię i nazwisko" data-error-message="Podaj imię i nazwisko" required>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Adres E-mail" data-error-message="Podaj poprawny adres e-mail" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Adres (ulica, nr domu)" data-error-message="Podaj adres zamieszkania" required>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Kod pocztowy (xx-xxx)" data-error-message="Podaj kod pocztowy w formacie xx-xxx" pattern="[0-9]{2}-[0-9]{3}" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Miejscowość" data-error-message="Podaj nazwę miejscowości" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Numer telefonu" data-error-message="Podaj numer telefonu">
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="form-group">
+                <input type="number" class="form-control" min="1" placeholder="Wiek" data-error-message="Podaj swój wiek" required>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6 pull-right">
+            <input type="submit" class="btn btn-primary pull-right" value="Wyślij">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="alert alert-danger">
+        <ol>
+
+        </ol>
+    </div>
+
+</form>
+
+<!--
+    ABY POPRAWNIE PRZESYŁAĆ I ODCZYTYWAĆ DANE Z FORMULARZA PO STRONIE SERWERA,
+    NALEŻY DO KAŻDEGO Z PÓL DOPISAĆ ATRYBUT 'name', KTÓRY ZOSTAŁ TUTAJ POMINIĘTY,
+    ABY ZACHOWAĆ CZYSTOŚĆ KODU.
+-->
