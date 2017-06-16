@@ -91,7 +91,7 @@ var chat = {
 
     connectToServer: function() {
 
-        this.socket = new WebSocket("ws://eduweb.dev:8000");
+        this.socket = new WebSocket("ws://localhost:8000");
         this.socket.onmessage = this.displayMessage.bind(this);
         this.socket.onclose = this.stopApp.bind(this);
 

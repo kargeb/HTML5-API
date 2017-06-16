@@ -1,0 +1,7 @@
+<script type="javascript/worker" id="worker">
+    self.addEventListener("message", function(e) {
+        self.postMessage("Odsyłam: " + e.data);
+    }, false);
+</script>
+
+<p>Zaglądnij do konsoli przeglądarki.</p>

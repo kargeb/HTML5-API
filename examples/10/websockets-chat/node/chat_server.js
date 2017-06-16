@@ -38,7 +38,7 @@ var server = ws.createServer(function(conn) {
         console.log("Nieoczekiwanie przerwano połączenie!");
     });
 
-}).listen(8000, "eduweb.dev", function() {
+}).listen(8000, "localhost", function() {
     console.log("Serwer aktywny!");
 });
 

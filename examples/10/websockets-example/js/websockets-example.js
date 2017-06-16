@@ -19,7 +19,7 @@ socket.onmessage = function(e) {
 }
 
 socket.onclose = function(e) {
-    // info.innerHTML = "Połączenie z serwerem zakończone.";
+     info.innerHTML = "Połączenie z serwerem zakończone.";
 }
 
 })();
