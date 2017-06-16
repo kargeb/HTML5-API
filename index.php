@@ -3,7 +3,7 @@
 require_once "assets/LoaderClass.php";
 
 ?>
-<!-- HEADER -->
+<!-- HEADERR -->
 <?php Loader::get_header(); ?>
 
 <?php if(!Loader::$is_main_page) : ?>
