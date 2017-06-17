@@ -1,0 +1,141 @@
+###########################
+      LINKI DO KURSU
+###########################
+
+# Wstêp
+
+- Twitter Bootstrap: http://getbootstrap.com/
+- WampServer: http://www.wampserver.com/en/
+- MAMP: http://www.mamp.info/
+
+#1 DOM
+
+## querySelector i querySelectorAll
+- specyfikacja: http://www.w3.org/TR/selectors-api/
+- wsparcie: http://caniuse.com/#search=querySelector
+- sizzle.js: http://sizzlejs.com/
+
+## classList
+- specyfikacja: http://www.w3.org/TR/dom/#dom-element-classlist
+- wsparcie: http://caniuse.com/#search=classlist
+- polyfill: https://developer.mozilla.org/en-US/docs/Web/API/Element.classList
+
+## data-* i dataset
+- specyfikacja: http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#embedding-custom-non-visible-data-with-the-data-*-attributes
+- wsparcie: http://caniuse.com/#search=dataset
+
+-----------------------------------------------
+
+#2 Formularze
+
+## nowe typy pól formularzy i nowe elementy formularzy
+- specyfikacja: http://www.w3.org/TR/html5/forms.html
+- wsparcie: http://caniuse.com/#search=forms
+
+## walidacja (Constraint Validation API)
+- specyfikacja: http://www.w3.org/TR/html5/forms.html#the-constraint-validation-api
+
+-----------------------------------------------
+
+#3 Geolokalizacja
+
+- specyfikacja: http://www.w3.org/TR/geolocation-API/
+- wsparcie: http://caniuse.com/#search=geolocation
+
+-----------------------------------------------
+
+#4 WebStorage
+
+- specyfikacja: http://www.w3.org/TR/webstorage/
+- wsparcie: http://caniuse.com/#search=webstorage
+
+-----------------------------------------------
+
+#5 Canvas
+
+- specyfikacja: http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html
+- wsparcie: http://caniuse.com/#search=canvas
+
+## przyk³ady
+- http://www.craftymind.com/factory/html5video/CanvasVideo.html
+- http://www.freeriderhd.com/t/1016-layers
+- http://google.pl/maps
+- https://developer.mozilla.org/en-US/demos/detail/the-spiral-of-pi-vivax-solutions/launch
+
+-----------------------------------------------
+
+#6 Audio i Video
+
+- specyfikacja: http://www.w3.org/TR/html5/embedded-content-0.html
+- wsparcie audio: http://caniuse.com/#search=audio
+- wsparcie video: http://caniuse.com/#search=video
+- Miro Video Converter: http://www.mirovideoconverter.com/
+
+## API
+- http://www.whatwg.org/specs/web-apps/current-work/multipage/the-video-element.html
+- https://developer.mozilla.org/en/docs/Web/API/HTMLMediaElement
+- https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
+
+## Pliki multimedialne
+- audio: http://www.freesoundtrackmusic.com/tracks/meadow-enrico_altavilla.zip
+- video: http://www.xstockvideo.com/stock-video/cars-on-bridge-7758.html
+
+-----------------------------------------------
+
+#7 File API
+
+- specyfikacja: http://www.w3.org/TR/FileAPI/
+- wsparcie: http://caniuse.com/#search=file%20api
+- specyfikacja FileWriter: http://www.w3.org/TR/file-writer-api/
+- specyfikacja FileSystem: http://www.w3.org/TR/file-system-api/
+- wsparcie FileWriter i FileSystem: http://caniuse.com/#search=filewriter
+
+-----------------------------------------------
+
+#8 Web Workers
+
+- specyfikacja: http://www.whatwg.org/specs/web-apps/current-work/multipage/workers.html
+- wsparcie: http://caniuse.com/#search=web%20workers
+- wsparcie SharedWorkers: http://caniuse.com/#search=shared%20web%20workers
+
+-----------------------------------------------
+
+#9 Drag and Drop
+
+- specyfikacja: http://www.whatwg.org/specs/web-apps/current-work/multipage/dnd.html
+- wsparcie: http://caniuse.com/#search=drag%20and%20drop
+
+-----------------------------------------------
+
+#10 Web Sockets
+
+- specyfikacja: http://www.w3.org/TR/websockets/
+- wsparcie: http://caniuse.com/#search=websockets
+- CloseEvent: https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent
+- Node.js: http://nodejs.org/
+- Modu³ WebSockets: https://www.npmjs.org/package/nodejs-websocket
+
+-----------------------------------------------
+
+#11 History API
+
+- specyfikacja: http://www.w3.org/TR/html5/browsers.html#history-1
+- wsparcie: http://caniuse.com/#search=history
+
+-----------------------------------------------
+
+#12 Application Cache
+
+- specyfikacja: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
+- wsparcie: http://caniuse.com/#search=offline
+
+-----------------------------------------------
+
+# Polyfills
+
+- https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills
+- http://html5please.com/
+
+-----------------------------------------------
+
+# A wiêcej ju¿ wkrótce (a byæ mo¿e ju¿ w momencie, w którym ogl¹dasz ten kurs) na eduweb.pl/warsztaty

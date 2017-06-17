@@ -1,7 +1,9 @@
 (function() {
-
+ 
 if(!window.FileReader) return;
 
+    
+    
 var fileInput = document.querySelector("#fileInput");
 
 fileInput.onchange = function() { // po wybraniu pliku przez użytkownika
